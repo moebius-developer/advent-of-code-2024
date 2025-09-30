@@ -1,6 +1,6 @@
 ## Day 1
 
-* `cd day`
+* `cd day1`
 
 * `go run *.go input`
 
