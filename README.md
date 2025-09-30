@@ -1,7 +1,9 @@
-## Day 1
+## How to run
 
-* `cd day1`
+* `cd day$NUM`
 
 * `go run *.go input`
 
-Expected outputs: 1580061, 23046913
+### Day 1 expected outputs: 1580061, 23046913
+
+### Day 2 expected outputs: 252, 23046913
