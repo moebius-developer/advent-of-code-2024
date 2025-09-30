@@ -10,11 +10,13 @@ import (
 )
 
 func main() {
-	part1()
+	leftNums, rightNums := sortedLeftRight(os.Args[1])
+	part1(leftNums, rightNums)
+	part2(leftNums, rightNums)
 }
 
 func sortedLeftRight(inputFile string) ([]int, []int) {
-	file, err := os.Open(os.Args[1])
+	file, err := os.Open(inputFile)
 	if err != nil {
 		log.Fatalf("Error opening file: %v", err)
 	}
