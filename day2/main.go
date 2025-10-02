@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"fmt"
 	"log"
 	"os"
 	"strconv"
@@ -10,7 +11,11 @@ import (
 
 func main() {
 	reports := getReports(os.Args[1])
+	fmt.Println("Part 1...")
 	part1(reports)
+
+	fmt.Println("Part 2...")
+	part2(reports)
 }
 
 func getReports(inputFile string) [][]int {
